@@ -1,25 +1,24 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="ru.car4men.app.workstation" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget android-versionCode="102001" id="ru.car4men.app.workstation" version="1.0.2" versionCode="102001" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>АРМ автомойки</name>
     <description>
         Автоматизированное рабочее место автомойки
     </description>
     <author email="support@techinform.pro" href="http://techinform.pro">
-        Techinform Team
+        Techinform OOO
     </author>
     <content src="index.html" />
     <preference name="permissions" value="none" />
-    <preference name="orientation" value="default" />
+    <preference name="orientation" value="portrait" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="true" />
-    <preference name="webviewbounce" value="true" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
     <preference name="prerendered-icon" value="true" />
     <preference name="stay-in-webview" value="false" />
     <preference name="ios-statusbarstyle" value="black-opaque" />
     <preference name="detect-data-types" value="true" />
     <preference name="exit-on-suspend" value="false" />
-    <preference name="show-splash-screen-spinner" value="true" />
-    <preference name="auto-hide-splash-screen" value="true" />
     <preference name="disable-cursor" value="false" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="android-installLocation" value="auto" />
@@ -29,9 +28,8 @@
     <plugin name="org.apache.cordova.device-orientation" />
     <plugin name="org.apache.cordova.geolocation" />
     <plugin name="org.apache.cordova.globalization" />
-    <plugin name="org.apache.cordova.splashscreen" />
     <plugin name="cordova-plugin-whitelist" />
-    <plugin name="cordova-plugin-crosswalk-webview" />
+    <plugin name="com.phonegap.plugin.statusbar" source="pgb" spec="1.1.0" />
     <icon src="www/icon.png" />
     <icon density="ldpi" platform="android" src="www/icon.png" />
     <icon density="mdpi" platform="android" src="www/icon.png" />
@@ -53,7 +51,7 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <engine name="android" spec="~5.1.1" />
-    <preference name="xwalkVersion" value="17+" />
+    <preference name="xwalkVersion" value="xwalk_core_library_beta:18+" />
     <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect" />
     <preference name="xwalkMode" value="embedded" />
     <preference name="xwalkMultipleApk" value="true" />

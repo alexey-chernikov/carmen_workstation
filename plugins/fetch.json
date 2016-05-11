@@ -1,18 +1,26 @@
 {
-    "cordova-plugin-inappbrowser": {
+    "cordova-plugin-whitelist": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-inappbrowser@~1.2.0"
+            "id": "cordova-plugin-whitelist"
         },
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-whitelist": {
+    "cordova-plugin-geolocation": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-whitelist@1"
+            "id": "cordova-plugin-geolocation"
         },
         "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-compat": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-compat"
+        },
+        "is_top_level": false,
         "variables": {}
     },
     "cordova-plugin-crosswalk-webview": {

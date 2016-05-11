@@ -10,9 +10,16 @@
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "ru.car4men.app.workstation"
         },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "ru.car4men.app.workstation"
+        },
         "cordova-plugin-crosswalk-webview": {
             "PACKAGE_NAME": "ru.car4men.app.workstation"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "ru.car4men.app.workstation"
+        }
+    }
 }
